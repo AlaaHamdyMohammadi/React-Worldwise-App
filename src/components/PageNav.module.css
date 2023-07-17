@@ -1,0 +1,19 @@
+.nav{
+    background-color: lightcoral;
+    padding: 10px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav :global(.active){
+    background-color: tomato;
+    font-size: 20px;
+}
+
+/* How to define global CSS in module.css file */
+:global(.test){
+    background-color: lightseagreen;
+}
