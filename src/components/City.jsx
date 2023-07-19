@@ -11,7 +11,7 @@ const formatDate = (date) =>
   }).format(new Date(date));
 
 function City() {
-  // const {id} = useParams();
+  const {id} = useParams();
   //console.log(id);
   const [searchParams, setSearchParams] = useSearchParams();
   const lat = searchParams.get("lat");
@@ -29,7 +29,7 @@ function City() {
 
   return <div>
   
-    
+    <h1>City : {id}</h1>
     <p>position {lat}, {lng}</p>
   </div>
 
