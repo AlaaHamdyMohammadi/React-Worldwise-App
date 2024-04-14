@@ -54,7 +54,7 @@ export default function Login() {
           </div>
 
           <div>
-            <Button type='primary'>Login</Button>
+            <Button>Login</Button>
           </div>
         </form>
       </main>
